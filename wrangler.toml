@@ -7,3 +7,6 @@ compatibility_date = "2023-05-15"
 # Configuration: https://developers.cloudflare.com/workers/wrangler/configuration/#triggers
 [triggers]
 crons = ["0 */6 * * *"]
+
+[observability]
+enabled = true
