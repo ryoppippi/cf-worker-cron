@@ -1,21 +1,22 @@
 {
-  "name": "cf-worker-cron",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "start": "wrangler dev",
-    "lint": "eslint --cache .",
-    "format": "nr lint --fix",
-    "prepare": "npx bunpare"
-  },
-  "devDependencies": {
-    "@antfu/ni": "^0.23.0",
-    "@cloudflare/workers-types": "^4.20230419.0",
-    "@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config",
-    "eslint": "^9.11.1",
-    "typescript": "^5.0.4",
-    "wrangler": "^3.0.0"
-  }
+	"name": "cf-worker-cron",
+	"type": "module",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"lint": "eslint --cache .",
+		"format": "nr lint --fix",
+		"prepare": "npx bunpare"
+	},
+	"devDependencies": {
+		"@antfu/ni": "^0.23.0",
+		"@cloudflare/workers-types": "^4.20230419.0",
+		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config",
+		"eslint": "^9.11.1",
+		"typescript": "^5.0.4",
+		"wrangler": "^3.0.0"
+	}
 }
