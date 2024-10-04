@@ -7,9 +7,11 @@
     "dev": "wrangler dev",
     "start": "wrangler dev",
     "lint": "eslint --cache .",
-    "format": "nr lint --fix"
+    "format": "nr lint --fix",
+    "prepare": "npx bunpare"
   },
   "devDependencies": {
+    "@antfu/ni": "^0.23.0",
     "@cloudflare/workers-types": "^4.20230419.0",
     "@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config",
     "eslint": "^9.11.1",
@@ -17,4 +19,3 @@
     "wrangler": "^3.0.0"
   }
 }
-
